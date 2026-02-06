@@ -8,7 +8,6 @@ public class SumList {
 
         List<Integer> numSum = Arrays.asList(1,2,3,4,7);
         int sum = numSum.stream().mapToInt(Integer::intValue).sum();
-
         System.out.println(sum);
 
     }
